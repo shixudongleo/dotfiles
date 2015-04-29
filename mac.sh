@@ -133,3 +133,12 @@ if [ ! -d "$HOME/virtualenvs/kivy_env" ]; then
 else
     fancy_echo "Already created virtualenv %s. Skipping ..." "$HOME/virtualenvs/kivy_env"
 fi
+
+# daily use softwares
+fancy_echo "Installing dayly use softwares"
+brew cask install google-chrome
+brew cask install firefox
+brew cask install teamviewer
+brew cask install mactex
+brew cask install sublime-text
+brew cask install vlc
