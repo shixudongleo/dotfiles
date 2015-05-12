@@ -78,7 +78,7 @@ brew cask install xquartz
 
 # global python packages
 pip install --upgrade pip
-pip install --upgrade ipython
+pip install --upgrade ipython[notebook]
 pip install --upgrade ipdb
 pip install --upgrade virtualenv
 pip install --upgrade virtualenvwrapper
@@ -142,3 +142,4 @@ brew cask install teamviewer
 brew cask install mactex
 brew cask install sublime-text
 brew cask install vlc
+brew cask install virtualbox
