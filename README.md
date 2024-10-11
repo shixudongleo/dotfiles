@@ -16,3 +16,10 @@
 export GITHUB_FILE_URL=""
 sh -c "$(curl -fsSL GITHUB_FILE_URL)"
 ```
+
+
+
+## References:
+
+- https://dev.to/erikaheidi/setting-up-an-ubuntu-2204-workstation-for-software-development-and-content-creation-1ddj
+- https://mepritam.dev/references/setup-ubuntu-22-04/
