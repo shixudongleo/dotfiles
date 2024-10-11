@@ -10,3 +10,9 @@
 - ubuntu with docker compose env 
 - ubuntu scrapy environment 
 - ubuntu ml environment
+
+
+```
+export GITHUB_FILE_URL=""
+sh -c "$(curl -fsSL GITHUB_FILE_URL)"
+```
